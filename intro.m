@@ -1,16 +1,16 @@
 %%
 
-%imread('C:\Users\furka\Desktop\renklilense-dair-.jpg');
-%img = imread('C:\Users\furka\Desktop\renklilense-dair-.jpg');
-%x = double(img);
-%imR = x(:,:,1);
-%imG = x(:,:,2);
-%imB = x(:,:,3);
-%imshow(uint8(imB));
+imread('C:\Users\furka\Desktop\renklilense-dair-.jpg');
+img = imread('C:\Users\furka\Desktop\renklilense-dair-.jpg');
+x = double(img);
+imR = x(:,:,1);
+imG = x(:,:,2);
+imB = x(:,:,3);
+imshow(uint8(imB));
 
 %%
 
-%x=[12;12;12];
+x=[12;12;12];
 
 
 %%
